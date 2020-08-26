@@ -36,13 +36,19 @@ body {
   margin-top: 10px;
 }
 
+#nav-list li a{
+  margin: 1px;
+  background: #79999f;
+}
+
+
 #nav-list a {
   color: #111111;
   text-align: center;
 }
 
 #nav-list a:hover {
-  background: #79999f;
+  background: rgb(150, 150, 200);
 }
 
 #nav-list a span {
@@ -63,12 +69,46 @@ body {
 
 /* Main Content */
 .menu-items {
-  margin: 25px 20px;
-  padding: 5px 10px;
+  margin: 20px 0;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.menu-box {
+  margin: 0 10px;
+  padding: 5px 15px;
   background-color:#79999f;
   text-align: center;
 }
 
+.menu-items a {
+  color: aliceblue;
+  text-emphasis: italic;
+}
+
 .menu-item-title {
   font-size: 1.6em;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
 }
